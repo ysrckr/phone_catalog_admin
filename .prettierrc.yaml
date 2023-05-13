@@ -1,0 +1,16 @@
+semi: true
+tabWidth: 2
+useTabs: false
+printWidth: 80
+singleQuote: true
+trailingComma: 'all'
+jsxSingleQuote: false
+bracketSpacing: true
+arrowParens: avoid
+endOfLine: lf
+singleAttributePerLine: true
+insertFinalLine: true
+plugins:
+  - prettier-plugin-sort-imports
+  - prettier-plugin-organize-imports
+  - prettier-plugin-tailwind-css
